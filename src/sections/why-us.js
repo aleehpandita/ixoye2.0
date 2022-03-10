@@ -5,35 +5,35 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/tab-illustration-1.png';
+import tabImage1 from 'assets/images/tab-illustration-1.jpg';
 
 const data = [
   {
     id: 1,
-    tabTitle: 'Why you choose our service?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: '¿Por qué escoger nuestros servicios?',
+    title: `Garantizamos el trabajo con nuestro personal capacitado y con autorizado `,
+    description: `Los servicios que ofrecemos están garantizados, ya que nuestros técnicos son profesionales y están comprometidos con su trabajo.`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Refacciones nuevas',
+      'Piezas de fabrica',
+      'Servicio Garantizado',
+      'Solución inmediata',
     ],
   },
   {
     id: 2,
-    tabTitle: 'What’s our business promise?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: '¿Trabajamos con urgencia?',
+    title: `Si le urge nuestro servicio llámenos.`,
+    description: `Por favor comuniquese con nosotros al 998 130 7542 ya sea por llamada o WhatsApp y te atenderemos de manera inmediata`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Luneas a Sábado',
+      'Autorizados de fabrica',
+      'Años de Experiencia',
+      'Servicio a Domicilio',
     ],
   },
   {
@@ -79,9 +79,9 @@ const WhyUs = () => {
                     </Box>
                   ))}
                 </Box>
-                <Box sx={styles.learnMore}>
+                {/* <Box sx={styles.learnMore}>
                   <LearnMore path={item.moreLink} label="Explore more" />
-                </Box>
+                </Box> */}
               </Box>
               <Box sx={styles.illustration}>
                 <Image src={item.image} alt="illustration" />

@@ -39,16 +39,16 @@ const data = [
     slug: '#how-to',
     thumbnail: thumb2,
     showDescription: true,
-    title: `Multiple art board prototype with Figma`,
-    description: `Beyond launched anti bias, a Chrome extension that replaces LinkedIn profile photos`,
+    title: `Mantenimiento de Línea Blanca`,
+    description: `Solicita la reparación de tu lavadora con tecnicos certificados por la marca.`,
   },
   {
     id: 5,
     slug: '#how-to',
     thumbnail: thumb4,
     showDescription: false,
-    title: `Team presentation with latest user interface & experience reach more`,
-    description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
+    title: `No sufras más. Piezas y Refacciones Nuevas`,
+    description: `Nosotros sólo utilizamos piezas y refacciones nuevas; originales de fábrica, para la reparación de sus aparatos de línea blanca.`,
   },
 ];
 
