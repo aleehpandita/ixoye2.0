@@ -3,12 +3,12 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon4 from 'assets/images/icons/refri1.png';
-import icon5 from 'assets/images/icons/refri2.png';
-import icon6 from 'assets/images/icons/refri3.png';
-import icon7 from 'assets/images/icons/refri4.png';
-import icon8 from 'assets/images/icons/refri5.png';
-import icon9 from 'assets/images/icons/refri6.png';
+import icon4 from 'assets/images/icons/aire1.png';
+import icon5 from 'assets/images/icons/aire2.png';
+import icon6 from 'assets/images/icons/aire3.png';
+import icon7 from 'assets/images/icons/aire4.png';
+import icon8 from 'assets/images/icons/aire5.png';
+import icon9 from 'assets/images/icons/aire6.png';
 
 const data = [
   {
@@ -16,14 +16,14 @@ const data = [
     icon: icon4,
     moreLink: '#learn-more',
     title: 'Reparaciones Certificadas',
-    description: `Nos especializamos en reparación y compostura de refrigeradores, centros de refrigeracion, congeladores.`,
+    description: `Nos especializamos en reparación y compostura de minisplits, centros de ventilacion, aire acondicionado.`,
   },
   {
     id: 2,
     icon: icon5,
     moreLink: '#learn-more',
     title: 'Todas las marcas',
-    description: `Manejamos las marcas de mayor demanda y prestigio en el mercado. Easy / General Electric / Maytag / LG / Mabe / Frigidaire / Whirlpool`,
+    description: `Manejamos las marcas de mayor demanda y prestigio en el mercado. Carrier / York / General Electric / Maytag / LG / Mabe / Daewo / Whirlpool`,
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const data = [
     icon: icon8,
     moreLink: '#learn-more',
     title: 'Servicio Garantizado',
-    description: `Solamente te separa una llamada de enmendar el problema con tu refrigerador o con tu congelador.`,
+    description: `Solamente te separa una llamada de enmendar el problema con tu minisplit o con tu aire acondicionado.`,
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const OtherServices = () => {
         <SectionHeading
           sx={styles.heading}
           title="Servicio Garantizado"
-          description="Si tu refrigerador o tu congelador ya no funciona, no te preocupes mas te ayudamos a recuperar tu inversión, a un costo de gran conveniencia para tu bolsillo."
+          description="Si tu aire acondicionado o tu minisplit ya no funciona, no te preocupes mas te ayudamos a recuperar tu inversión, a un costo de gran conveniencia para tu bolsillo."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

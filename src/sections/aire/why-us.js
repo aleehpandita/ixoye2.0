@@ -5,7 +5,7 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/banner-refri.jpg';
+import tabImage1 from 'assets/images/1.png';
 
 const data = [
   {
@@ -40,7 +40,7 @@ const data = [
     id: 3,
     tabTitle: '¿Piezas originales y de fabrica?',
     title: `Le aseguramos que trabajamos con piezas de fábrica`,
-    description: ` No dudes en acercarte con los profesionales en reparación de refrigeradores y congeladores en Cancún y Playa del Carmen.`,
+    description: ` No dudes en acercarte con los profesionales en reparación de aire acondicionado y minisplits en Cancún y Playa del Carmen.`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [

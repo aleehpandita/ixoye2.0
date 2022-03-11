@@ -7,12 +7,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
 import TeamMember from 'components/cards/team-member';
 
-import avatar1 from 'assets/images/team/refri/1.jpg';
-import avatar2 from 'assets/images/team/refri/2.jpeg';
-import avatar3 from 'assets/images/team/refri/4.jpg';
-import avatar4 from 'assets/images/team/refri/5.jpg';
-import avatar5 from 'assets/images/team/refri/6.jpg';
-import avatar6 from 'assets/images/team/refri/6.png';
+import avatar1 from 'assets/images/team/aire/1.png';
+import avatar2 from 'assets/images/team/aire/2.png';
+import avatar3 from 'assets/images/team/aire/4.png';
+import avatar4 from 'assets/images/team/aire/5.png';
+import avatar5 from 'assets/images/team/aire/6.png';
+import avatar6 from 'assets/images/team/aire/7.png';
 import arrowRight from 'assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
@@ -41,7 +41,7 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Samsung',
+    name: 'Hisense',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -93,7 +93,7 @@ const data = [
   {
     id: 5,
     avatar: avatar1,
-    name: 'General Electric',
+    name: 'Carrier',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -113,7 +113,7 @@ const data = [
   {
     id: 6,
     avatar: avatar2,
-    name: 'Frigidaire',
+    name: 'Hisense',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -145,7 +145,7 @@ const data = [
   {
     id: 8,
     avatar: avatar5,
-    name: 'Easy',
+    name: 'York',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -223,8 +223,8 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Reparación de Refrigeradores y Congeladores"
-          description="Servicio urgente y a domicilio para refrigeradores, congeladores, centros de refrigeracion residencial y/o industrial."
+          title="Reparación de Aire Acondicionado y MiniSplits"
+          description="Servicio urgente y a domicilio para aire acondicionado, minisplits, centros de ventilación residencial y/o industrial."
         />
       </Container>
       <Box

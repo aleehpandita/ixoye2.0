@@ -4,10 +4,10 @@ import { jsx, Box, Container } from 'theme-ui';
 import Masonry from 'react-masonry-component';
 import SectionHeading from 'components/section-heading';
 import BlogPost from 'components/cards/blog-post';
-import thumb1 from 'assets/images/blog/refri-1.jpeg';
-import thumb2 from 'assets/images/blog/refri-4.jpeg';
-import thumb3 from 'assets/images/blog/2-refri.jpg';
-import thumb4 from 'assets/images/blog/3-refri.jpg';
+import thumb1 from 'assets/images/blog/1-aire.jpg';
+import thumb2 from 'assets/images/blog/2-aire.jpg';
+import thumb3 from 'assets/images/blog/3-aire.jpg';
+import thumb4 from 'assets/images/blog/4-aire.jpg';
 
 const data = [
   {
@@ -40,7 +40,7 @@ const data = [
     thumbnail: thumb2,
     showDescription: true,
     title: `Mantenimiento de Línea Blanca`,
-    description: `Solicita la reparación de tu refrigerador con tecnicos certificados por la marca.`,
+    description: `Solicita la reparación de tu aire acondicionado con tecnicos certificados por la marca.`,
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const Blog = () => {
         <SectionHeading
           sx={styles.heading}
           title="CENTRO DE SERVICIO Y REPARACIÓN"
-          description="¿Tu Refrigerador, Congelador, Centro de Refrigeracion ya sea Industrial o Residencial ya no funciona? Contactanos y Cotiza sin compromiso."
+          description="¿Tu Aire Acondicionado, MiniSplit, Centro de Ventilación ya sea Industrial o Residencial ya no funciona? Contactanos y Cotiza sin compromiso."
         />
         <Masonry options={masonryOptions} sx={styles.postContainer}>
           {data?.map((post) => (

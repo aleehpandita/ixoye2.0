@@ -55,5 +55,5 @@ export default function SEO({
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Reparacion de Refrigeradores y Congeladores con expertos especialistas en todas las marcas`,
+  description: `Reparacion de Aire Acondicionado`,
 };

@@ -4,22 +4,22 @@ import { jsx, Box, Container } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon1 from 'assets/images/icons/refri1.png';
-import icon2 from 'assets/images/icons/refri2.png';
-import icon3 from 'assets/images/icons/refri3.png';
+import icon1 from 'assets/images/icons/aire1.png';
+import icon2 from 'assets/images/icons/aire2.png';
+import icon3 from 'assets/images/icons/aire3.png';
 
 const data = [
   {
     id: 1,
     icon: icon1,
     title: 'Técnicos Certificados',
-    description: `Expertos en la Reparacion de refrigeradores y congeladores Whirlpool, Frigidaire, Mabe, Easy, GE, LG, Samsung y más,`,
+    description: `Expertos en la Reparacion de aire acondicionado y minisplits Whirlpool, Daewo, Mabe, Mirage, Hisense, Zmartech, LG, Samsung y más,`,
   },
   {
     id: 3,
     icon: icon2,
     title: 'Servicio Garantizado',
-    description: `Servicio en reparacion de refrigeradores en Cancun, ofrecemos un excelente servicio respaldado por personal capacitado`,
+    description: `Servicio en reparacion de aire acondicionado en Cancun, ofrecemos un excelente servicio respaldado por personal capacitado`,
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const Services = () => {
         <SectionHeading
           sx={styles.heading}
           title="EXPERTOS EN LINEA BLANCA"
-          description="Técnicos especializados en todas las marcas. Reparacion de Refrigeradores. Reparación de Equipos de Refrigeración, Reparacion de congeladores industriales y/o residenciales."
+          description="Técnicos especializados en todas las marcas. Reparacion de Aire Acondicionado. Reparación de Equipos de Ventilación, Reparacion de minisplits y aire acondicionado industriales y/o residenciales."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

@@ -6,7 +6,7 @@ import { rgba } from 'polished';
 //import quote from 'assets/images/icons/quote.png';
 import uber from 'assets/images/logos/samsung.png';
 import google from 'assets/images/logos/mabe.png';
-import paypal from 'assets/images/logos/easy.png';
+import paypal from 'assets/images/logos/mirage.png';
 import microsoft from 'assets/images/logos/siemens.png';
 import dribbble from 'assets/images/logos/lg.png';
 
@@ -14,32 +14,32 @@ const data = [
   {
     id: 1,
     logo: uber,
-    author: 'Reparacion de Refrigerador Mabe',
+    author: 'Reparacion de Aire Acondicionado Mabe',
     quote: `Técnicos altamente calificados en todas las marcas con repuestos originales. Garantizamos la reparación de su electrodoméstico.`,
   },
   {
     id: 2,
     logo: google,
-    author: 'Reparacion de Refrigerador Samsung',
+    author: 'Reparacion de Aire Acondicionado Samsung',
     quote: `Contamos con el respaldo de las mejores marcas, permitiéndonos así brindar la mejor garantía en sus mantenimientos y reparaciones.`,
   },
   {
     id: 3,
     logo: paypal,
-    author: 'Reparacion de Refrigerador Mabe',
+    author: 'Reparacion de Aire Acondicionado  Mabe',
     quote: `Un Servicio Cerca de ti con Tecnicos Capacitados por las Mejores Marcas del Mercado`,
   },
   {
     id: 4,
     logo: microsoft,
-    author: 'Reparacion de Refrigerador Whirpool',
+    author: 'Reparacion de Aire Acondicionado  Whirpool',
     quote: `Damos el mejor servicio de reparación de línea blanca las 24 horas y los 365 días del año. Somos tu mejor opción, solo llámanos, nosotros vamos a donde nos solicites.`,
   },
   {
     id: 5,
     logo: dribbble,
-    author: 'Reparacion de Refrigerador LG',
-    quote: `Técnicos especializados en todas las marcas. Reparacion de Refrigeradores. Reparación de centros de refrigeracion, Reparacion de congeladores y frigobares`,
+    author: 'Reparacion de Aire Acondicionado  LG',
+    quote: `Técnicos especializados en todas las marcas. Reparacion de Aire Acondicionado. Reparación de centros de ventilacion, Reparacion de aire acondicionado y minisplits`,
   },
 ];
 

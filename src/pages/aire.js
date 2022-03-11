@@ -17,7 +17,7 @@ export default function IndexPage() {
       <Layout>
         <SEO
           title="Reparación y Mantenimiento de Aire Acondicionado"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          description="Tecnicos especialistas en reparación de Aire Acondicionado"
         />
         <Banner />
         <Services />
