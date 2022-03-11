@@ -38,16 +38,16 @@ const data = [
   },
   {
     id: 3,
-    tabTitle: 'What’s our role model plan?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: '¿Piezas originales y de fabrica?',
+    title: `Le aseguramos que trabajamos con piezas de fábrica`,
+    description: ` No dudes en acercarte con los profesionales en reparación de lavadoras en Cancún y Playa del Carmen.`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Piezas de fabrica',
+      'Refacciones originales',
+      'Garantía de Servicio',
+      'Expertos capacitados',
     ],
   },
 ];

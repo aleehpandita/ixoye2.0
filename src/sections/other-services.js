@@ -37,21 +37,21 @@ const data = [
     icon: icon7,
     moreLink: '#learn-more',
     title: 'Atención inmediata',
-    description: `No te quedes esperando una respuesta, tenemos servicio de urgencia las 24/7. Llama sin compromiso al `,
+    description: `No te quedes esperando una respuesta, tenemos servicio de urgencia las 24/7.`,
   },
   {
     id: 5,
     icon: icon8,
     moreLink: '#learn-more',
-    title: 'Ultimate development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Servicio Garantizado',
+    description: `Solamente te separa una llamada de enmendar el problema con la lavadora o secadora.`,
   },
   {
     id: 6,
     icon: icon9,
     moreLink: '#learn-more',
-    title: 'Online support',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Servicio en Línea',
+    description: `Cotiza sin compromiso a nuestro WhatsApp o Llama sin compromiso al 9981307542`,
   },
 ];
 

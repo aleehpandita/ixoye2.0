@@ -17,7 +17,7 @@ export default function IndexPage() {
       <Layout>
         <SEO
           title="Reparación y Mantenimiento de Linea Blanca"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          description="Reparacion de lavadoras y secadoras servicios garantizados, nuestros técnicos son profesionales y están comprometidos con su trabajo."
         />
         <Banner />
         <Services />

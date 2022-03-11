@@ -18,7 +18,9 @@ const Banner = () => {
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
+            <a sx={styles.href} target="_blank" href='https://api.whatsapp.com/send?phone=529981307542&text=Hola!%20estoy%20interesado%20en%20los%20servicios%20de%20Mantenimiento' className='text-underline-none'>
               <Button><Image src={imgwplogo} alt="close" width="25" height="10" /> Cotiza por WhatsApp</Button>
+            </a>
             </Box>
             <Image src={illustration} alt="illustration" />
           </Box>
@@ -31,6 +33,9 @@ const Banner = () => {
 export default Banner;
 
 const styles = {
+  href:{
+    textDecoration:'none',
+  },
   section: {
     position: 'relative',
     pt: [105, null, null, 140, 15, null, 170],
