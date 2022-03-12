@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
-import SEO from 'components/seo';
+import SEO from 'components/aire/seo';
 import Layout from 'components/aire/layout';
 import Banner from 'sections/aire/banner';
 import Services from 'sections/aire/services';

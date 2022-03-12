@@ -11,7 +11,7 @@ const data = [
   {
     id: 1,
     tabTitle: '¿Por qué escoger nuestros servicios?',
-    title: `Garantizamos el trabajo con nuestro personal capacitado y con autorizado `,
+    title: `Garantizamos el trabajo con nuestro personal capacitado y autorizado `,
     description: `Los servicios que ofrecemos están garantizados, ya que nuestros técnicos son profesionales y están comprometidos con su trabajo.`,
     moreLink: '#explore-more',
     image: tabImage1,
