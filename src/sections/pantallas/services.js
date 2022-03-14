@@ -35,7 +35,7 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="EXPERTOS EN LINEA BLANCA"
+          title="EXPERTOS EN PANTALLAS Y TELEVISORES"
           description="Técnicos especializados en todas las marcas. Reparacion de Pantallas. Reparación de Televisores de todas las marcas. Distribuidores Autorizados."
         />
         <Box sx={styles.contentWrapper}>

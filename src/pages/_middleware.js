@@ -55,7 +55,19 @@ export default function middleware(req) {
         ) {
             url.pathname = `/pantallas`;
             return NextResponse.rewrite(url);
-        }  else if (
+        }else if (
+            hostname === "boilers.localhost:3000" ||
+            hostname === "boilers.servicioscancun.info"
+        ) {
+            url.pathname = `/boilers`;
+            return NextResponse.rewrite(url);
+        }else if (
+            hostname === "plomero.localhost:3000" ||
+            hostname === "plomero.servicioscancun.info"
+        ) {
+            url.pathname = `/plomero`;
+            return NextResponse.rewrite(url);
+        }   else if (
             hostname === "secadoras.localhost:3000" ||
             hostname === "secadoras.servicioscancun.info"
         ) {

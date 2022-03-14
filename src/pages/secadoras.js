@@ -17,7 +17,7 @@ export default function IndexPage() {
       <Layout>
         <SEO
           title="Reparación y Mantenimiento de Linea Blanca"
-          description="Reparacion de lavadoras y secadoras servicios garantizados, nuestros técnicos son profesionales y están comprometidos con su trabajo."
+          description="Reparacion de secadoras servicios garantizados, nuestros técnicos son profesionales y están comprometidos con su trabajo."
         />
         <Banner />
         <Services />

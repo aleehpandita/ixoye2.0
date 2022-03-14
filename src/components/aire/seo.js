@@ -5,7 +5,7 @@ export default function SEO({
   description = '',
   author = 'DevPom, Io',
   meta,
-  title = 'Reparacion de Refrigeradores',
+  title = 'Reparacion de Aire Acondicionado',
 }) {
   const metaData = [
     {

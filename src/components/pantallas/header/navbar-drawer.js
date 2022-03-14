@@ -6,7 +6,7 @@ import { jsx, Box, Image } from 'theme-ui';
 import { Link } from 'react-scroll';
 import { DrawerContext } from 'contexts/drawer/drawer-context';
 import Drawer from 'components/drawer';
-import Logo from 'components/refri/logo';
+import Logo from 'components/pantallas/logo';
 import menuItems from './header.data';
 import close from 'assets/images/icons/close.png';
 

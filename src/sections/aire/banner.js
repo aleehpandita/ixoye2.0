@@ -72,7 +72,7 @@ const styles = {
     display: ['block', null, null, 'flex'],
     position: 'relative',
     img: {
-      display: ['none', null, null, 'block'],
+      display: ['flex', null, null, 'block'],
       maxWidth: ['80%'],
       m: ['0 auto'],
     },

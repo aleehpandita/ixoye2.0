@@ -21,7 +21,7 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Mabe',
+    name: 'Samsung',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -41,7 +41,7 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Samsung',
+    name: 'Vizio',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -57,7 +57,7 @@ const data = [
   {
     id: 3,
     avatar: avatar3,
-    name: 'LG',
+    name: 'VLC',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -73,7 +73,7 @@ const data = [
   {
     id: 4,
     avatar: avatar4,
-    name: 'Whirpool',
+    name: 'Hisense',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -92,8 +92,8 @@ const data = [
   },
   {
     id: 5,
-    avatar: avatar1,
-    name: 'General Electric',
+    avatar: avatar5,
+    name: 'LG',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -112,8 +112,8 @@ const data = [
   },
   {
     id: 6,
-    avatar: avatar2,
-    name: 'Frigidaire',
+    avatar: avatar6,
+    name: 'Sony',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -129,7 +129,7 @@ const data = [
   {
     id: 7,
     avatar: avatar6,
-    name: 'Maytag',
+    name: 'Phillips',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -145,7 +145,7 @@ const data = [
   {
     id: 8,
     avatar: avatar5,
-    name: 'Easy',
+    name: 'LG',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {

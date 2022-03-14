@@ -14,31 +14,31 @@ const data = [
   {
     id: 1,
     logo: uber,
-    author: 'Reparacion de Refrigerador Samsung',
+    author: 'Reparacion de Plasma Samsung',
     quote: `Técnicos altamente calificados en todas las marcas con repuestos originales. Garantizamos la reparación de sus pantallas OLED y/o PLASMA.`,
   },
   {
     id: 2,
     logo: google,
-    author: 'Reparacion de Pantallas Sony',
+    author: 'Reparacion de Plasma Sony',
     quote: `Contamos con el respaldo de las mejores marcas, permitiéndonos así brindar la mejor garantía en sus mantenimientos y reparaciones.`,
   },
   {
     id: 3,
     logo: paypal,
-    author: 'Reparacion de Refrigerador Hisense',
+    author: 'Reparacion de Plasma Hisense',
     quote: `Un Servicio Cerca de ti con Tecnicos Capacitados por las Mejores Marcas del Mercado`,
   },
   {
     id: 4,
     logo: microsoft,
-    author: 'Reparacion de Refrigerador Phillips',
+    author: 'Reparacion de Plasma Phillips',
     quote: `Damos el mejor servicio de reparación de plasmas las 24 horas y los 365 días del año. Somos tu mejor opción, solo llámanos, nosotros vamos a donde nos solicites.`,
   },
   {
     id: 5,
     logo: dribbble,
-    author: 'Reparacion de Refrigerador LG',
+    author: 'Reparacion de Plasma LG',
     quote: `Técnicos especializados en todas las marcas. Reparacion de Televisores. Reparación de Pantallas PLASMA, Reparacion de Pantallas OLED y pantallas LED`,
   },
 ];
