@@ -30,7 +30,7 @@ const data = [
     icon: icon6,
     moreLink: '#learn-more',
     title: 'Instalaciones hidráulicas y sanitarias',
-    description: `Urgencias Sanitarias. Detección y reparación de fugas. Serivicios de urgencia pregunta sin compromiso al 998 130 7542.`,
+    description: `Urgencias Sanitarias. Detección y reparación de fugas. Serivicios de urgencia pregunta sin compromiso al 998 381 6839.`,
   },
   {
     id: 4,

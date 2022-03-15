@@ -26,7 +26,7 @@ const data = [
     id: 2,
     tabTitle: '¿Trabajamos con urgencia?',
     title: `Si le urge nuestro servicio llámenos.`,
-    description: `Por favor comuniquese con nosotros al 998 130 7542 ya sea por llamada o WhatsApp y te atenderemos de manera inmediata`,
+    description: `Por favor comuniquese con nosotros al 998 3816839 ya sea por llamada o WhatsApp y te atenderemos de manera inmediata`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [

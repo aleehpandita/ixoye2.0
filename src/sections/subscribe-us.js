@@ -28,7 +28,7 @@ const SubscribeUs = () => {
           <SectionHeading
             sx={styles.heading}
             title="¿Te gusto nuestro servicio?"
-            description="Mandanos una reseña, queja o aclaración a nuestro correo contacto@servicioscancun.info y con gusto atenderemos tus dudas y/o sugerencias. Recuerda que puedes cotizar al número: 998 130 7542"
+            description="Mandanos una reseña, queja o aclaración a nuestro correo contacto@servicioscancun.info y con gusto atenderemos tus dudas y/o sugerencias. Recuerda que puedes cotizar al número: 998 381 6839"
 
           />
           <Box sx={styles.subscribe} >

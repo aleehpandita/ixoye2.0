@@ -31,7 +31,7 @@ const data = [
     slug: '#how-to',
     thumbnail: thumb3,
     showDescription: false,
-    title: `Llamanos al 998 130 7542 para cotizar sin compromiso`,
+    title: `Llamanos al 9983 816839para cotizar sin compromiso`,
     description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,
   },
   {

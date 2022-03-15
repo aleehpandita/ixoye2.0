@@ -30,7 +30,7 @@ const data = [
     icon: icon6,
     moreLink: '#learn-more',
     title: 'Otras marcas',
-    description: `Si tu marca no aparece en nuestra gama de distribuidores autorizados, pregunta sin compromiso al 998 130 7542.`,
+    description: `Si tu marca no aparece en nuestra gama de distribuidores autorizados, pregunta sin compromiso al 998 381 6839.`,
   },
   {
     id: 4,
