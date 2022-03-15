@@ -42,7 +42,7 @@ const SubscribeUs = () => {
                 className="email-input"
                 placeholder="Enter Email address"
               /> */}
-               <a sx={styles.href} target="_blank" href='https://api.whatsapp.com/send?phone=529981307542&text=Hola!%20estoy%20interesado%20en%20los%20servicios%20de%20Mantenimiento' className='text-underline-none'>
+               <a sx={styles.href} target="_blank" href='https://api.whatsapp.com/send?phone=529983816839&text=Hola!%20estoy%20interesado%20en%20los%20servicios%20de%20Mantenimiento' className='text-underline-none'>
               <Button className="btn-sm mb-4 mt-2 text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3" variant="secondary">contacto@servicioscancun.info</Button></a>
             </Flex>
             <Box sx={styles.checkbox}>

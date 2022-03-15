@@ -51,7 +51,7 @@ const data = [
     icon: icon9,
     moreLink: '#learn-more',
     title: 'Servicio en Línea',
-    description: `Cotiza sin compromiso a nuestro WhatsApp o Llama sin compromiso al 9981307542`,
+    description: `Cotiza sin compromiso a nuestro WhatsApp o Llama sin compromiso al 9983816839`,
   },
 ];
 

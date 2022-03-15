@@ -18,7 +18,7 @@ const Banner = () => {
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-            <a sx={styles.href} target="_blank" href='https://api.whatsapp.com/send?phone=529981307542&text=Hola!%20estoy%20interesado%20en%20los%20servicios%20de%20Mantenimiento' className='text-underline-none'>
+            <a sx={styles.href} target="_blank" href='https://api.whatsapp.com/send?phone=529983816839&text=Hola!%20estoy%20interesado%20en%20los%20servicios%20de%20Mantenimiento' className='text-underline-none'>
               <Button><Image src={imgwplogo} alt="close" width="25" height="10" /> Cotiza por WhatsApp</Button>
             </a>
             </Box>
