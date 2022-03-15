@@ -79,6 +79,18 @@ export default function middleware(req) {
         ) {
             url.pathname = `/refrigeradores`;
             return NextResponse.rewrite(url);
+        } else if (
+            hostname === "bombas.localhost:3000" ||
+            hostname === "bombas.servicioscancun.info"
+        ) {
+            url.pathname = `/bombas`;
+            return NextResponse.rewrite(url);
+        } else if (
+            hostname === "electricista.localhost:3000" ||
+            hostname === "electricista.servicioscancun.info"
+        ) {
+            url.pathname = `/electricista`;
+            return NextResponse.rewrite(url);
         } else {
             url.pathname = `/`;
             return NextResponse.rewrite(url);

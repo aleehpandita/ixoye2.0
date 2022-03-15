@@ -1,23 +1,23 @@
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
-import SEO from 'components/pantallas/seo';
-import Layout from 'components/pantallas/layout';
-import Banner from 'sections/pantallas/banner';
-import Services from 'sections/pantallas/services';
-import Testimonials from 'sections/pantallas/testimonials';
-import OurTeam from 'sections/pantallas/our-team';
-import OtherServices from 'sections/pantallas/other-services';
-import WhyUs from 'sections/pantallas/why-us';
+import SEO from 'components/bombas/seo';
+import Layout from 'components/bombas/layout';
+import Banner from 'sections/bombas/banner';
+import Services from 'sections/bombas/services';
+import Testimonials from 'sections/bombas/testimonials';
+import OurTeam from 'sections/bombas/our-team';
+import OtherServices from 'sections/bombas/other-services';
+import WhyUs from 'sections/bombas/why-us';
 import SubscribeUs from 'sections/subscribe-us';
-import Blog from 'sections/pantallas/blog';
+import Blog from 'sections/bombas/blog';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Reparación y Mantenimiento de Pantallas y Televisores"
-          description="Tecnicos especialistas en reparación de Pantallas y Televisores"
+          title="Reparación y Mantenimiento de Bombas"
+          description="Tecnicos especialistas en reparación de bombas e hidroneumaticos"
         />
         <Banner />
         <Services />
@@ -25,7 +25,7 @@ export default function IndexPage() {
         <OurTeam />
         <OtherServices />
         <WhyUs />
-        <Blog />
+        {/* <Blog /> */}
         <SubscribeUs />
       </Layout>
     </ThemeProvider>

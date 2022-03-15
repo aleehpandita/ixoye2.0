@@ -5,7 +5,7 @@ export default function SEO({
   description = '',
   author = 'DevPom, Io',
   meta,
-  title = 'Reparacion de Pantallas',
+  title = 'Reparacion de Bombas',
 }) {
   const metaData = [
     {
@@ -44,7 +44,7 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
-      <link rel="shortcut icon" href="/favicon4.png" />
+      <link rel="shortcut icon" href="/bombas.png" />
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}
@@ -55,5 +55,5 @@ export default function SEO({
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Reparacion de Pantallas`,
+  description: `Reparacion de Bombas`,
 };
