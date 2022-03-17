@@ -3,12 +3,12 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon4 from 'assets/images/icons/plo1.png';
-import icon5 from 'assets/images/icons/plo2.png';
-import icon6 from 'assets/images/icons/plo3.png';
-import icon7 from 'assets/images/icons/plo4.png';
-import icon8 from 'assets/images/icons/plo5.png';
-import icon9 from 'assets/images/icons/plo6.png';
+import icon4 from 'assets/images/icons/ele1.png';
+import icon5 from 'assets/images/icons/ele2.png';
+import icon6 from 'assets/images/icons/ele3.png';
+import icon7 from 'assets/images/icons/ele4.png';
+import icon8 from 'assets/images/icons/ele5.png';
+import icon9 from 'assets/images/icons/ele6.png';
 
 const data = [
   {
@@ -16,21 +16,21 @@ const data = [
     icon: icon4,
     moreLink: '#learn-more',
     title: 'Reparaciones Certificadas',
-    description: `Instalacion de todo tipo de accesorios para el baño, cocina, cuartos de lavado, y más. Atención a emergencias.`,
+    description: `Instalacion de todo tipo de instalaciones electricas para el baño, cocina, cuartos, y más. Atención a emergencias.`,
   },
   {
     id: 2,
     icon: icon5,
     moreLink: '#learn-more',
-    title: 'Destapado de tuberias',
-    description: `Destapado de tuberias y drenaje. Servicios industriales, hotelero, obra, comercial y residencial. Nuestro servicio es de forma inmediata.`,
+    title: 'Cableado Eléctrico',
+    description: `Necesidades de iluminación y cableado eléctrico, así como de equipo de control, herrajes, tableros eléctricos y más.`,
   },
   {
     id: 3,
     icon: icon6,
     moreLink: '#learn-more',
-    title: 'Instalaciones hidráulicas y sanitarias',
-    description: `Urgencias Sanitarias. Detección y reparación de fugas. Servicios de urgencia pregunta sin compromiso al 998 381 6839.`,
+    title: 'Instalaciones Alta tensión',
+    description: `Urgencias Eléctricas. Detección y reparación de cableados. Servicios de urgencia pregunta sin compromiso al 998 381 6839.`,
   },
   {
     id: 4,
@@ -44,14 +44,14 @@ const data = [
     icon: icon8,
     moreLink: '#learn-more',
     title: 'Servicio Garantizado',
-    description: `Reparación e instalación de bombas de agua. Reparación de fugas. Solamente te separa una llamada de enmendar el problema en tu hogar.`,
+    description: `Garantizamos la calidad de los productos que comercializamos, ya que somos distribuidores autorizados de las marcas de mayor prestigio en el mercado: Schneider Electric, Indiana, Viakon, Federal Pacific, Himel, Square D, 3M entre otras.`,
   },
   {
     id: 6,
     icon: icon9,
     moreLink: '#learn-more',
     title: 'Servicio en Línea',
-    description: `Destapado de tuberias y drenaje. Cualquier servicio de plomería, cotiza sin compromiso a nuestro WhatsApp o Llama sin compromiso al 9983816839`,
+    description: `Montaje de instalaciones eléctricas. Cualquier servicio eléctrico, cotiza sin compromiso a nuestro WhatsApp o Llama sin compromiso al 9983816839`,
   },
 ];
 
@@ -61,8 +61,8 @@ const OtherServices = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Servicio de Plomería Garantizado"
-          description="Servicios de plomería y de mantenimiento residencial, entregamos con puntualidad y el trabajo está garantizado."
+          title="Servicio de Eléctrico Garantizado"
+          description="Tenemos experiencia en ingeniería eléctrica, construcción y montaje de instalaciones eléctricas"
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

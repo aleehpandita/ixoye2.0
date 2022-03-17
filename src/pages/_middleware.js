@@ -91,6 +91,12 @@ export default function middleware(req) {
         ) {
             url.pathname = `/electricista`;
             return NextResponse.rewrite(url);
+        } else if (
+            hostname === "herrero.localhost:3000" ||
+            hostname === "herrero.servicioscancun.info"
+        ) {
+            url.pathname = `/herrero`;
+            return NextResponse.rewrite(url);
         } else {
             url.pathname = `/`;
             return NextResponse.rewrite(url);

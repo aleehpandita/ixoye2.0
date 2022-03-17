@@ -1,23 +1,23 @@
 import { ThemeProvider } from 'theme-ui';
 import theme from 'theme';
-import SEO from 'components/plomero/seo';
-import Layout from 'components/plomero/layout';
-import Banner from 'sections/plomero/banner';
-import Services from 'sections/plomero/services';
-import Testimonials from 'sections/plomero/testimonials';
-import OurTeam from 'sections/plomero/our-team';
-import OtherServices from 'sections/plomero/other-services';
-import WhyUs from 'sections/plomero/why-us';
+import SEO from 'components/electricista/seo';
+import Layout from 'components/electricista/layout';
+import Banner from 'sections/electricista/banner';
+import Services from 'sections/electricista/services';
+import Testimonials from 'sections/electricista/testimonials';
+import OurTeam from 'sections/electricista/our-team';
+import OtherServices from 'sections/electricista/other-services';
+import WhyUs from 'sections/electricista/why-us';
 import SubscribeUs from 'sections/subscribe-us';
-import Blog from 'sections/plomero/blog';
+import Blog from 'sections/electricista/blog';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Servicio de plomeria en Cancún | Técnico plomero"
-          description="Tecnicos especialistas en plomeria. No dejes que te roben más y busca verdaderos expertos para tu casa."
+          title="Servicio de electricista en Cancún | Técnico electricista"
+          description="Tecnicos electricistas especialistas. No dejes que te roben más y busca verdaderos expertos para tu casa."
         />
         <Banner />
         <Services />
