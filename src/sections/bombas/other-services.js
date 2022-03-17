@@ -3,12 +3,12 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon4 from 'assets/images/icons/tv1.png';
-import icon5 from 'assets/images/icons/tv2.png';
-import icon6 from 'assets/images/icons/tv3.png';
-import icon7 from 'assets/images/icons/tv4.png';
-import icon8 from 'assets/images/icons/tv5.png';
-import icon9 from 'assets/images/icons/tv6.png';
+import icon4 from 'assets/images/icons/bom1.png';
+import icon5 from 'assets/images/icons/bom2.png';
+import icon6 from 'assets/images/icons/bom3.png';
+import icon7 from 'assets/images/icons/bom4.png';
+import icon8 from 'assets/images/icons/bom5.png';
+import icon9 from 'assets/images/icons/bom6.png';
 
 const data = [
   {
@@ -16,14 +16,14 @@ const data = [
     icon: icon4,
     moreLink: '#learn-more',
     title: 'Reparaciones Certificadas',
-    description: `Nos especializamos en reparación y compostura de televisores, pantallas OLED, LED, Plasma.`,
+    description: `Nos especializamos en reparación y compostura de bombas de agua, bomba periferica, bomba centrifuga, bombas sumergibles, etc.`,
   },
   {
     id: 2,
     icon: icon5,
     moreLink: '#learn-more',
     title: 'Todas las marcas',
-    description: `Manejamos las marcas de mayor demanda y prestigio en el mercado. Sony / LG / Samsung / Hisense / Phillips / JVC / TCL, etc`,
+    description: `Manejamos las marcas de mayor demanda y prestigio en el mercado. Evans / Truper / Pretul / Munich / Barers / Rotoplas etc`,
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const data = [
     icon: icon8,
     moreLink: '#learn-more',
     title: 'Servicio Garantizado',
-    description: `Solamente te separa una llamada de enmendar el problema con tu plasma, tu OLED o con tu televisor.`,
+    description: `Solamente te separa una llamada de enmendar el problema con tu bombas de agua. Si ya no enciende o ya no sube el agua, no dudes en contactarnos. Somos EXPERTOS en bombas.`,
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const OtherServices = () => {
         <SectionHeading
           sx={styles.heading}
           title="Servicio Garantizado"
-          description="Si tu plasma o tu pantalla ya no funciona, necesitas piezas de fabrica?, la garantía ya vencio pero ya no prende tu tv? no te preocupes mas te ayudamos a recuperar tu inversión, a un costo de gran conveniencia para tu bolsillo."
+          description="Deja de buscar, nosotros somos la mejor opción. Nos dedicamos ala reparacion de bombas e hidroneumaticos. Somos un centro de servicio AUTORIZADO, es decir que instalamos solo partes y accesorios genuinos."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (

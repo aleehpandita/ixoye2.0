@@ -7,12 +7,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
 import TeamMember from 'components/cards/team-member';
 
-import avatar1 from 'assets/images/team/tv/samsung.png';
-import avatar2 from 'assets/images/team/tv/vizio.jpg';
-import avatar3 from 'assets/images/team/tv/vlc.png';
-import avatar4 from 'assets/images/team/tv/hisense.png';
-import avatar5 from 'assets/images/team/tv/lg.jpeg';
-import avatar6 from 'assets/images/team/tv/sony.png';
+import avatar1 from 'assets/images/team/bombas/1.jpg';
+import avatar2 from 'assets/images/team/bombas/2.jpeg';
+import avatar3 from 'assets/images/team/bombas/3.jpeg';
+import avatar4 from 'assets/images/team/bombas/4.jpeg';
+import avatar5 from 'assets/images/team/bombas/5.jpeg';
+import avatar6 from 'assets/images/team/bombas/6.jpeg';
 import arrowRight from 'assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
@@ -21,7 +21,7 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Samsung',
+    name: 'Truper',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -41,7 +41,7 @@ const data = [
   {
     id: 2,
     avatar: avatar2,
-    name: 'Vizio',
+    name: 'Rotoplas',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -57,7 +57,7 @@ const data = [
   {
     id: 3,
     avatar: avatar3,
-    name: 'VLC',
+    name: 'Evans',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -73,7 +73,7 @@ const data = [
   {
     id: 4,
     avatar: avatar4,
-    name: 'Hisense',
+    name: 'Pretul',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -92,8 +92,8 @@ const data = [
   },
   {
     id: 5,
-    avatar: avatar5,
-    name: 'LG',
+    avatar: avatar6,
+    name: 'Wellmate',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -112,8 +112,8 @@ const data = [
   },
   {
     id: 6,
-    avatar: avatar6,
-    name: 'Sony',
+    avatar: avatar5,
+    name: 'Aquapak',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -129,7 +129,7 @@ const data = [
   {
     id: 7,
     avatar: avatar6,
-    name: 'Phillips',
+    name: 'Barnes',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -145,7 +145,7 @@ const data = [
   {
     id: 8,
     avatar: avatar5,
-    name: 'LG',
+    name: 'Munich',
     designation: 'Distribuidor Autorizado',
     socialLinks: [
       {
@@ -223,8 +223,8 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Reparación de Pantallas OLED y Plasma"
-          description="Servicio urgente y a domicilio para reparaciones de televisores, pantallas, OLED, Plasma, LED, etc. Piezas originales y de fábrica."
+          title="Reparación de Bombas de Agua Residencial o Industrial"
+          description="Servicio urgente y a domicilio para reparaciones de bombas de agua e hidroneumaticos de todas las marcas como rotoplas, evans, aquor y mas."
         />
       </Container>
       <Box

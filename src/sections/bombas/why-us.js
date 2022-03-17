@@ -5,7 +5,7 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/banner-tv.jpg';
+import tabImage1 from 'assets/images/bomba.jpeg';
 
 const data = [
   {
@@ -40,7 +40,7 @@ const data = [
     id: 3,
     tabTitle: '¿Piezas originales y de fabrica?',
     title: `Le aseguramos que trabajamos con piezas de fábrica`,
-    description: ` No dudes en acercarte con los profesionales en reparación de televisores y plasmas en Cancún y Playa del Carmen.`,
+    description: ` No dudes en acercarte con los profesionales en reparación de hidroneumaticos y bombas en Cancún y Playa del Carmen.`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
