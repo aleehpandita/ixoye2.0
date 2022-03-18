@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
-import illustration from 'assets/images/banner-plomero.png';
+import illustration from 'assets/images/banner-electricista.png';
 import imgwplogo from 'assets/images/logos/wp.png';
 
 const Banner = () => {
@@ -13,8 +13,8 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Servicio de Plomería en Cancún"
-            description="Técnico en plomería en Cancún. Mantenimiento, Instalacion y Reparacion en Cancún. Especialistas en todo tipo de instalaciones hidráulicas y sanitarias. Servicio a domicilio 24/7"
+            title="Servicio de Electricista en Cancún"
+            description="Electricista Profesional en Cancún. Mantenimiento, Instalacion y Reparacion en Cancún. Especialistas en todo tipo de instalaciones electricas. Trabajos Urgentes. Servicio a domicilio 24/7"
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
